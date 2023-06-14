@@ -22,7 +22,7 @@ public class Ejecutor {
         DocenteNombramiento docenNom = new DocenteNombramiento();
         String nombre, cedula, opc;
         boolean ban = true, ban2 = true;
-        double valorSuledo,valorHoraExtra,numHorasEx,sueldo;
+        double valorSuledo,valorHoraExtra,numHorasEx;
        double valorFact;
         do {
             System.out.print("Ingrese los nombres del Docente: ");
