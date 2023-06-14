@@ -23,7 +23,7 @@ public class DocenteFactura extends Docente {
     }
 
     public void establecerValorCancelar() {
-        valorCancelar = valorFactura + (valorFactura * valorIva);
+        valorCancelar = valorFactura - (valorFactura * valorIva);
     }
 
     public double obtenerValorFactura() {
